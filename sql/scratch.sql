@@ -1,0 +1,4 @@
+-- update osm.relations set tags = tags || ('network' => 'US:I') where tags->'network'='I';
+-- no t needed because
+-- select count(*) from osm.relations where  tags->'network'='I';
+-- is empty
