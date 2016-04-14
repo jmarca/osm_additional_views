@@ -2,8 +2,8 @@
 
 BEGIN;
 
-SELECT relation_id,roles
-  FROM osm.relation_roles
+SELECT relation_id,types
+  FROM osm.super_relations
  WHERE FALSE;
 
 

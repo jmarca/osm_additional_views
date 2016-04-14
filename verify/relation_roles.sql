@@ -2,6 +2,8 @@
 
 BEGIN;
 
--- XXX Add verifications here.
+select relation_id,roles
+from osm.relation_roles
+where false;
 
 ROLLBACK;
