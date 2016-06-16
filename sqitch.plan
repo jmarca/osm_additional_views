@@ -1,7 +1,7 @@
 %syntax-version=1.0.0
 %project=osm_additional_views
 
-super_relations 2016-04-11T04:28:04Z James E. Marca <james@activimetrics.com> # super relations view
-relation_roles 2016-04-11T04:28:34Z James E. Marca <james@activimetrics.com> # relation roles view
-blacklist_relations 2016-04-11T04:30:38Z James E. Marca <james@activimetrics.com> # blacklist table
+super_relations [osm_load:pgsnapshot_load] 2016-04-11T04:28:04Z James E. Marca <james@activimetrics.com> # super relations view
+relation_roles [osm_load:pgsnapshot_load] 2016-04-11T04:28:34Z James E. Marca <james@activimetrics.com> # relation roles view
+blacklist_relations [osm_load:pgsnapshot_load] 2016-04-11T04:30:38Z James E. Marca <james@activimetrics.com> # blacklist table
 route_relations [blacklist_relations relation_roles super_relations] 2016-04-11T05:34:11Z James E. Marca <james@activimetrics.com> # route_relations view

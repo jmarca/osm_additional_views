@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/jmarca/osm_additional_views/issues"
   },
-  "homepage": "https://github.com/jmarca/osm_additional_views#readme"
+  "homepage": "https://github.com/jmarca/osm_additional_views#readme",
+  "dependencies": {
+    "osm_load": "github:jmarca/osm_load"
+  }
 }
