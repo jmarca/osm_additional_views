@@ -1,0 +1,22 @@
+{
+  "name": "osm_additional_views",
+  "version": "1.0.0",
+  "description": "Additional views for OSM when matching freeway detectors ",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "pgtap"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmarca/osm_additional_views.git"
+  },
+  "author": "James E Marca",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/jmarca/osm_additional_views/issues"
+  },
+  "homepage": "https://github.com/jmarca/osm_additional_views#readme"
+}
